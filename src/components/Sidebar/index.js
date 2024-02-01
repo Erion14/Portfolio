@@ -1,5 +1,5 @@
 import "./index.scss";
-import LogoS from "../../assets/images/a.png";
+import LogoS from "../../assets/images/E.png";
 import LogoSub from "../../assets/images/a-s.png";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
