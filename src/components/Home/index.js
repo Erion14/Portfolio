@@ -1,13 +1,11 @@
-import LogoTitle from "../../assets/images/E.png";
 import { Link } from "react-router-dom";
 import "./index.scss";
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
-import Logo from "./Logo";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = ["r", "i", "o", "n"];
+  const nameArray = ["      ", "E", "r", "i", "o", "n"];
   const jobArray = [
     "s",
     "o",
@@ -42,8 +40,8 @@ const Home = () => {
           <span className={`${letterClass} _12`}>i,</span>
           <br />
           <span className={`${letterClass} _13`}>I</span>
-          <span className={`${letterClass} _14`}>'m</span>
-          <img src={LogoTitle} alt="developer" />
+          <span className={`${letterClass} _14`}>'m </span>
+
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
@@ -61,7 +59,6 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo />
     </div>
   );
 };

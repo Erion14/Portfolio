@@ -1,10 +1,10 @@
 .home-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
+    transform: translateY(-45%);
+    width: 50%;
     max-height: 90%;
   }
 
@@ -37,15 +37,16 @@
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
-    img {
-      width: 100px;
-      margin-left: 20px;
-      opacity: 0;
-      height: auto;
-      animation: fadeIn 1s linear both;
-      animation-delay: 1.4s;
-      margin-bottom: -10px;
-    }
+    // img {
+    //   width: 80px;
+    //   margin-left: 30px;
+    //   opacity: 0;
+    //   height: auto;
+    //   animation: fadeIn 1s linear both;
+    //   animation-delay: 1.4s;
+    //   margin-bottom: -15px;
+    //   margin-right: -10px;
+    // }
   }
   h2 {
     color: #8d8d8d;
