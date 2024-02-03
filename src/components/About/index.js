@@ -13,6 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.scss";
 
 const About = () => {
+  document.title = "About me";
+
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {

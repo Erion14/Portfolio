@@ -5,6 +5,7 @@ import Loader from "react-loaders";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  document.title = "Contact Me";
   const [letterClass, setLetterClass] = useState("text-animate");
   const refForm = useRef();
   useEffect(() => {
