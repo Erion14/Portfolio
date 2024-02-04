@@ -5,6 +5,7 @@ import Loader from "react-loaders";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  document.title = "Contact Me";
   const [letterClass, setLetterClass] = useState("text-animate");
   const refForm = useRef();
   useEffect(() => {
@@ -22,14 +23,13 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_m60klep",
-        "template_ouoe5ko",
+        "template_b94bd3u",
         refForm.current,
         "iUKVe1zC0aUWBsxcN"
       )
       .then(
         () => {
           alert("Message successfully sent");
-          window.location.reload(false);
         },
         () => {
           alert("Failed to send the message, please try again");

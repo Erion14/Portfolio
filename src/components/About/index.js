@@ -13,6 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.scss";
 
 const About = () => {
+  document.title = "About me";
+
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
@@ -36,18 +38,20 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a second-year student at RIT Kosovo, passionate about coding and
+            programming. I find joy in crafting solutions and exploring the
+            possibilities of web development and Java projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Coding is more than just a hobby; it's a journey of continuous
+            learning and growth for me. From building websites to tackling Java
+            applications, each project teaches me something new and expands my
+            skills.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            With experience in web development and Java projects, I'm eager to
+            continue exploring the world of programming and making meaningful
+            contributions in the field.
           </p>
         </div>
 

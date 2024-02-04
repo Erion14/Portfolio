@@ -5,6 +5,8 @@ import AnimatedLetters from "../AnimatedLetters";
 import Loader from "react-loaders";
 
 const Home = () => {
+  document.title = "Erion's Portfolio";
+
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = ["      ", "E", "r", "i", "o", "n"];
   const jobArray = [
