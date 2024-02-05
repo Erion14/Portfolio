@@ -30,14 +30,14 @@ const Sidebar = () => (
         to="/about"
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e"></FontAwesomeIcon>
-      </NavLink>
+        {/* </NavLink>
       <NavLink
         exact="true"
         activeclassname="active"
         className="portfolio-link"
         to="/portfolio"
       >
-        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e"></FontAwesomeIcon> */}
       </NavLink>
       <NavLink
         exact="true"
