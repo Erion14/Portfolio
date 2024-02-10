@@ -7,8 +7,20 @@ body {
   font: 300 11px/1.4 "Helvetica Neue", "sans-serif";
   color: #444;
   background: linear-gradient(to bottom right, #9417ba, #4d7b93);
-  height: 100vh;
+  height: 140vh;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
 }
