@@ -25,10 +25,16 @@ const Sidebar = () => {
         <img src={LogoS} alt="logo" />
       </Link>
       <nav className={showNav ? "mobile-show" : ""}>
-        <NavLink exact activeClassName="active" to="/">
+        <NavLink
+          onClick={() => setShowNav(false)}
+          exact
+          activeClassName="active"
+          to="/"
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
+          onClick={() => setShowNav(false)}
           exact
           activeClassName="active"
           className="about-link"
@@ -37,6 +43,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
+          onClick={() => setShowNav(false)}
           exact
           activeClassName="active"
           className="contact-link"
