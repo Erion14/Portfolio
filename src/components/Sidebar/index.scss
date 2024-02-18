@@ -92,6 +92,11 @@
         content: "PORTFOLIO";
       }
     }
+    a.skills-link {
+      &:after {
+        content: "SKILLS";
+      }
+    }
 
     a.active {
       svg {

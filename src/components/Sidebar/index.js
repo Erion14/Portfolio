@@ -8,6 +8,7 @@ import {
   faUser,
   faBars,
   faClose,
+  faBrain,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faDiscord,
@@ -46,11 +47,21 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
           exact
           activeClassName="active"
+          className="skills-link"
+          to="/Skills"
+        >
+          <FontAwesomeIcon icon={faBrain} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          onClick={() => setShowNav(false)}
+          exact
+          activeClassName="active"
           className="contact-link"
           to="/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
