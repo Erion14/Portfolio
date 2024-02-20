@@ -1,7 +1,7 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
-
+  right: 50%;
   ul {
     padding: 0;
     margin: 0;
@@ -57,11 +57,11 @@
   .flat-button {
     color: white;
     background: 0 0;
-    font: 11px;
+    font: 16px;
     letter-spacing: 3px;
     text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #9417ba;
+    padding: 10px 10px;
+    border: 2px solid #9417ba;
     float: right;
     border-radius: 4px;
 
@@ -70,5 +70,15 @@
       color: white;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
+  }
+}
+.container.contact-page {
+  width: 100%;
+
+  .text-zone {
+    width: 50%;
+  }
+  .contact-form {
+    width: 100%;
   }
 }

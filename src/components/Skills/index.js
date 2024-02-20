@@ -22,26 +22,31 @@ const Skills = () => {
       title: "Input Output Streams",
       description:
         "Mechanisms for handling data flow between a program and external sources (e.g., files, network).",
+      link: "https://github.com/Erion14/Java/tree/master/Java/src/encryption",
     },
     {
-      title: "Stream API",
+      title: "Data Structures and Algorithms",
       description:
-        "A set of operations for processing data streams efficiently and declaratively.",
+        "I know algorithms and problem-solving through understanding core algorithms, practicing regularly on platforms like LeetCode.",
+      link: "https://github.com/Erion14/LeetCode",
     },
     {
       title: "Functional Programming",
       description:
         "A programming paradigm emphasizing pure functions and immutable data structures for concise and predictable code.",
+      link: "https://github.com/Erion14/Java/tree/master/Java/src/functional_programming",
     },
     {
       title: "Object-Oriented Programming",
       description:
         "A programming paradigm organizing software around objects that encapsulate data and behavior.",
+      link: "https://github.com/Erion14/Backend-for-shop",
     },
     {
       title: "Java Collections Framework",
       description:
         "A programming paradigm organizing software around objects that encapsulate data and behavior.",
+      link: "https://github.com/Erion14/Java-Collections",
     },
   ];
 
