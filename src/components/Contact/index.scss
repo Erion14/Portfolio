@@ -72,13 +72,15 @@
     }
   }
 }
-.container.contact-page {
-  width: 100%;
-
-  .text-zone {
-    width: 50%;
-  }
-  .contact-form {
+@media screen and (min-width: 1200px) {
+  .container.contact-page {
     width: 100%;
+
+    .text-zone {
+      width: 50%;
+    }
+    .contact-form {
+      width: 100%;
+    }
   }
 }
